@@ -36,7 +36,7 @@ handlers:
 builtins:
   - deferred: 'on'
 error_handlers:
-  - file: ''
+  - file: default_error.html
 automatic_scaling:
   min_idle_instances: automatic
   max_idle_instances: 1
